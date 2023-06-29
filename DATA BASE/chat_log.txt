@@ -1,0 +1,21 @@
+ you : what is my name
+ jarvis : your name is shailesh
+ You :what is my name 
+ jarvis: your name is shailesh 
+ You :what is your name 
+ jarvis: my name is jarvis 
+ You :what can you do 
+ jarvis: I can do many things. I can help you with your work, I can entertain you, and I can even help you stay healthy. 
+ You :entertain me 
+ jarvis: I can sing you a song, tell you a joke, or play a game with you. 
+ You :tell me more about how can you belt 
+ jarvis: I can help you with your work by keeping track of your tasks and deadlines, sending you reminders, and even helping you stay organized. I can also entertain you by playing games, telling jokes, or singing songs. And finally, I can help you stay healthy by tracking your fitness goals and progress, 
+ You :who are you 
+ jarvis: I am an artificial intelligence assistant. 
+ You :who made you 
+ jarvis: "I am part of a python project team consisting of three students - Meet, Shailesh, and Prince. Our team is diligent and continuously works to enhance my capabilities." 
+ 
+ You :ttd darshan 
+ jarvis: I'm sorry, I don't understand. 
+ You :introduce yourself 
+ jarvis: "My name is Jarvis and I am an artificial intelligence assistant. I can help you with your work, entertain you, and even help you stay healthy. I am part of a python project team consisting of three students - Meet, Shailesh, and Prince. Our team is diligent and continuously works

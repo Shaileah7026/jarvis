@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: url('temp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 900px;
+    z-index: -1;
+    object-fit: cover;
+}
+.time h2{
+    font-family: ROG;
+    margin-left:1760px;
+    margin-top : 31px;
+    margin-right: 70px;
+    padding:10px 10px 10px px ;
+    color: aqua;
+ }
+.month h3{
+   font-family: ROG;
+   font-size: 40px;
+   margin-left:1632px;
+   margin-right: 70px;
+   padding:0px 58px 5px 59px;
+   background-image: url('DateBlue.png');
+   background-size: cover;
+   color: aqua;
+}
+.day{
+    font-family: ROG;
+    text-align: left;
+    padding:10px 10px 10px px ;
+    color: aqua;
+}
+.webbuttons a{
+    padding: 10px 10xp 10xp 10px;
+    text-decoration:none;
+    color: aqua;
+}
+.border{
+    background-image: url('Border 1680x1050.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2px;
+    height: 951px;
+}

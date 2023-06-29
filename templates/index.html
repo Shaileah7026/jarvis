@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jarvis ui</title>
+<link rel="stylesheet" type="text/css" href="static\styles.css" >
+</head>
+<body>
+<div id="doc" class="yui-t4">
+  <div id="hd">
+    <div id="header">
+      <!-- <div class="time">
+        <h2>27</h2>
+        <div class="month">
+            <h3>january</h3>
+        </div>
+        <div class="day">
+          <h4>saturday</h4>
+        </div> -->
+    </div>
+  </div>
+  <div id="bd">
+    <div id="yui-main">
+      <div class="yui-b">
+        <div class="yui-gd">
+          <div class="yui-u first">
+            <div class="content">
+              <div class="group-app" >
+                <form action="{{ url_for('button_vs') }}" method="POST">
+                  <button  id="button"class="'webbuttons">VS CODE</button>
+                </form>
+                <form action="button_camera" method="POST">
+                  <button class="'webbuttons">CAMERA</button>
+                </form>
+                <form action="button_chrome" method="POST">
+                  <button class="'webbuttons">CHROME</button>
+                </form>
+                <form action="button_Files" method="POST">
+                  <button class="'webbuttons">FILES</button>
+                </form>
+                <form action="button_type" method="POST">
+                  <button class="'webbuttons">TYPING MASTER</button>
+                </form>
+                <form action="button_firefox" method="POST">
+                  <button class="'webbuttons" type="button">FIRE FOX</button>
+                </form>
+                </div>
+            </div>
+          </div>
+          <div class="yui-u">
+            <div class="content">
+              <div class="dot">
+                <form action=""></form>
+                <img src="{{ url_for('static', filename='green.png') }}">
+              </div>
+              <div class="group">
+              <a href="https://web.whatsapp.com/" target="_blank"><button class="webbuttons" type="button">WHATTSAPP</button></a>
+              <a href="https://www.facebook.com/" target="_blank"><button class="webbuttons" type="button">FACEBOOK</button></a>
+              <a href="https://www.hackerrank.com/" target="_blank"><button class="webbuttons" type="button">HACKERRANK</button></a>
+              <a href="https://www.wikipedia.org/" target="_blank"><button class="webbuttons" type="button">WIKIPEDIA</button></a>
+              <a href="https://github.com/" target="_blank"><button class="webbuttons" type="button">GITHUB</button></a>
+              <a href="https://www.youtube.com/" target="_blank"><button class="webbuttons" type="button">YOUTUBE</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yui-b">
+    </div>
+  </div>
+  <!-- <div id="ft">
+    <div id="footer">Footer</div>
+  </div> -->
+</div>
+</body>
+</html>
